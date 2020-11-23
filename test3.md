@@ -1,4 +1,4 @@
-# TEST
+# Test3
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
@@ -19,12 +19,12 @@
 {% endapi-method-request %}
 
 {% api-method-response %}
-{% api-method-response-example =200 %}
+{% api-method-response-example 200 0 httpCode=200 %}
 {% api-method-response-example-description %}
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -49,9 +49,4 @@ $$
 
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
 
